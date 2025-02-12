@@ -88,5 +88,5 @@ And that's it. If you open up your AWS Management Console, and browse to the **C
 
 ![CloudFormation Confirmation](cloudformation-confirm.png)
 
-## Where too from here
+## Where to from here
 With a test instance of the application built and deployed... Next step is to start Building and we start doing that in the next section which can be found [here](../Build-Application/index.md)
