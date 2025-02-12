@@ -143,3 +143,20 @@ Outputs:
     Description: "Implicit IAM Role created for Hello World function"
     Value: !GetAtt HelloWorldFunctionRole.Arn
 ```
+4. Save the file.
+
+## Deploy the Step Function
+When the definition of the step function now written, we can look to deploy them into AWS. 
+
+If you recall from the previous chapter, we need to perform a build and then a deploy. To make life a little easier, we can chain the two commands together as shown below
+``` 
+sam build && sam deploy
+```
+
+After a while (and a confirmation), you should get a success message confirming that your project has been successfully updated
+```
+Successfully created/updated stack - Workshop-Demo in ap-southeast-2
+```
+
+# Next Steps
+With the step function in place, next step is the Lambda function that will fetch the RSS Feed. click [here](Adding-Lambda.md)
